@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab02"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Display Result -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/black"
+            android:gravity="center|end"
+
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <!-- Button Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="4"
+            android:padding="10dp"
+            android:rowCount="5">
+
+            <!-- Number Buttons -->
+            <Button
+                android:id="@+id/buttonC"
+                style="@style/Widget.Material3.Button"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/buttonScopes"
+                style="@style/Widget.Material3.Button"
+                android:text="( )" />
+
+            <Button
+                android:id="@+id/buttonPercent"
+                style="@style/Widget.Material3.Button"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/buttonDivide"
+                style="@style/Widget.Material3.Button"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Widget.Material3.Button"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.Material3.Button"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.Material3.Button"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/buttonMultiply"
+                style="@style/Widget.Material3.Button"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.Material3.Button"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Widget.Material3.Button"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Widget.Material3.Button"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                style="@style/Widget.Material3.Button"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Widget.Material3.Button"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.Material3.Button"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.Material3.Button"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/buttonPlus"
+                style="@style/Widget.Material3.Button"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/buttonPlusMinus"
+                style="@style/Widget.Material3.Button"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/Widget.Material3.Button"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/buttonPeriod"
+                style="@style/Widget.Material3.Button"
+                android:text="," />
+
+            <Button
+                android:id="@+id/buttonEquals"
+                style="@style/Widget.Material3.Button"
+                android:text="=" />
+
+        </GridLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
